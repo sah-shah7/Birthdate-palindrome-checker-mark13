@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+  background-color: white;
+}
+
+.container {
+  background-color: lightsteelblue;
+  width: 30%;
+  border: 3px solid black;
+  margin: auto;
+  height: fit-content;
+  font-weight: bolder;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+h1 {
+  color: black;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+input {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 3px solid black;
+  position: relative;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  background-color: lightgray;
+  color: Black;
+  font-weight: bolder;
+  border: 3px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: lightslategrey;
+}
+
+#output {
+  margin-top: 2rem;
+  width: auto;
+  font-size: larger;
+  height: auto;
+  text-align: inherit;
+  justify-content: center;
+  align-items: center;
+}
